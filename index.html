@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <h1>Password Generator Project</h1>
+
+    <div>
+      <div class="flex-container">
+        <div class="solid-boarder">
+          <div class="showPassword"></div>
+        </div>
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+      </div>
+      <button onclick="createPassword(8)">Generate 8 Char Password</button>
+      <button onclick="createPassword(12)">Generate 12 Char Password</button>
+      <button onclick="createPassword(20)">Generate 20 Char Password</button>
+    </div>
+    <!-- <p>[bonuses: pass settings, lowercase, uppsercase, nums, syms, etc.]</p> -->
+
+  </body>
+</html>

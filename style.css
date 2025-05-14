@@ -1,0 +1,16 @@
+.solid-boarder 
+{
+    /* border-style: solid; */
+    width: auto;
+    min-width: 200px;
+    min-height: 20px;
+    padding: auto;
+    /* margin: 0.5em; */
+    border: 1px solid ;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
