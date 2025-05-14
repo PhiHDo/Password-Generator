@@ -1,1 +1,1 @@
-# Password-Generator
+I created a bare bones password generator in vanilla javascript. I wanted to ease back into programming and I figured I would get started with a simple project to relearn some JS syntax and learning how to manipulate the html dom with js. I can create 8, 12, and 20 character long passwords and copy them to the clipboard. Barely any CSS was used. I may do a few more things, but for now, I accomplished what I wanted, it works, and I am happy with that.
